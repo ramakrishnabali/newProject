@@ -1,10 +1,12 @@
 import "./index.css"
-import { HiArrowSmRight } from "react-icons/hi";
+
 import Header from "../Header"
+import Footer from "../Footer";
+import { HiArrowSmRight } from "react-icons/hi";
 import LeftArrow from "../../img/Home/LeftArrow.jpg"
 import RightArrow from "../../img/Home/RightArrow.jpg"
 import Group775 from "../../img/Home/Group775.jpg"
-import chocolate1 from "../../img/Home/chocolate1.jpg"
+import chocolate1 from "../../img/Home/chocolate1.png"
 import ElleVireExcellenceWhippingCream2 from "../../img/Home/ElleVireExcellenceWhippingCream2.jpg"
 import CELEBRE125x125 from "../../img/Home/CELEBRE125x125.png"
 import dawn125x125 from "../../img/Home/dawn125x125.png"
@@ -15,18 +17,15 @@ import returnPolicy from "../../img/Home/returnPolicy.png"
 import Fresh from "../../img/Home/Fresh.png"
 import securedPayments from "../../img/Home/securedPayments.png"
 import support from "../../img/Home/support.png"
-import fb from "../../img/Home/fb.png"
-import instagram from "../../img/Home/instagram.png"
-import twitter from "../../img/Home/twitter.png"
-import vector from "../../img/Home/vector.png"
-import whatsapp from "../../img/Home/whatsapp.png"
+
 
 
 
 const Home = ()=>(
     <>
+
     <Header />
-<div className="home-container">
+    <div className="home-container">
     <div className="top-container">
         <img className="left-arrow" src={LeftArrow} alt="left-arrow" />
         <div className="creative-heading-container">
@@ -285,41 +284,8 @@ const Home = ()=>(
             <p  className="policy-desc">Simply dummy text of the printintypesetting industry.</p>
         </li>
     </ul>
-
-    <div className="footer-container">
-    <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer"><img className="whats-app" src={whatsapp} alt="whatsapp" /></a>
-        <div className="contact-us-container">
-            <h1  className="policy-heading">contact Us</h1>
-            <label className="label-email" htmlFor="email">Email</label>
-            <p  className="utilities">needhelp@gmail.com</p>
-            <label  className="label-email" htmlFor="phone">Phone</label>
-            <p  className="utilities">666 888 888</p>
-            <label  className="label-email" htmlFor="address">Address</label>
-            <p  className="utilities">Mumbai Andheri, India</p>
-        </div>
-        <div className="social-media-container">
-            <h1  className="policy-heading">Elite Enterprise</h1>
-            <p  className="policy-desc">Simply dummy text of the printing and typesetting industry.<br />
-                Lorem Ipsum simply dummy text of the printing </p>
-            <div className="social-media-links">
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" /></a>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src={fb} alt="facebook" /></a>
-                <a href="https://www.X.com" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a>
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><img src={vector} alt="vector" /></a>
-            </div>
-        </div>
-        <div>
-            <h1 className="policy-heading">Utility Pages</h1>
-            <p className="utilities">Terms&Conditions</p>
-            <p  className="utilities">Refund Policy</p>
-            <p  className="utilities">Privacy Policy</p>
-            <p  className="utilities">shop</p>
-            <p  className="utilities">My Account</p>
-            <p  className="utilities">Brands</p>
-        </div>
-    </div>
-    <hr className="hr-line"/>
-    <p className="copy-right">Copyright ©<span className="label-email"> Elite Enterprise</span>| Designed & Developed By<span className="label-email"> Incinc Media</span> </p>
+    <Footer />
+    
 </div>
 </>
     

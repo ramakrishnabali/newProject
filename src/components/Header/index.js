@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { BsSearch } from "react-icons/bs";
 import { BsCart3 } from "react-icons/bs";
 
@@ -7,10 +9,17 @@ const Header = ()=>(
     <div className="header-container">
         <h1 className="header-heading">Elite Enterprise</h1>
         <div className="header-sub-container">
-            <p className="header-links">Home</p>
-            <p className="header-links">About</p>
+            <Link to="/"  className="header-links">
+                <p>Home</p>
+            </Link>
+            <Link to="/about"  className="header-links">
+                <p>About</p>
+            </Link>
+            
             <p className="header-links">Pages</p>
-            <p className="header-links">Shop</p>
+            <Link to="/shop"  className="header-links">
+                <p className="header-links">Shop</p>
+            </Link>
             <p className="header-links">Brands</p>
             <p className="header-links">Support</p>
             <input className="header-search" type="text" />

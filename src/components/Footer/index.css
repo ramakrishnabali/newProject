@@ -1,0 +1,67 @@
+.footer-container{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+.whats-app{
+    width: 70px;
+    height: 70px;
+    align-self:flex-start;
+    cursor: pointer;
+}
+.contact-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    /* border-right: 1px solid #BFBFBF;
+    padding-right: 20px; */
+    height: 90%;
+}
+.label-email{
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.social-media-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.utilities{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 19px;
+    color: #525C60;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.social-media-links{
+    width: 285px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copy-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.copy-right{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 19px;
+    color: #525C60;
+    align-self: center;
+    margin: 0px;
+    align-self: center;
+}

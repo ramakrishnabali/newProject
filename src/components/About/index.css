@@ -1,0 +1,71 @@
+.about-top-container{
+    background-image: url(../../img/About/about.png);
+    background-size: cover;
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 700;
+}
+.bucket-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.bucketImg{
+    width: 300px;
+    height: 300px;
+}
+.bucket-sub-container{
+    width: 550px;
+}
+.bucket-heading{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+.why-choose-us-container{
+    background-color: #F9F8F8;
+}
+.why-choose-us-paragraph{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#B27B60;
+}
+.circle-container{
+    background-color: #FBD198;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:339px;
+    height:41px;
+    padding: 13px 41px 13px 19px;
+    border-radius: 49px;
+    gap: 10px;
+}
+.circle-desc{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.desc{
+    Padding:0px 0px 0px 60px;
+    Gap:10px;
+}
