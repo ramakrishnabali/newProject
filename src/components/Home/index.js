@@ -62,7 +62,7 @@ const Home = ()=>(
     <ul className="featured-products-container">
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -71,9 +71,8 @@ const Home = ()=>(
             </div>
         </li>
 
-        <li className="featured-product">
-            
-            <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+        <li className="featured-product">    
+            <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2"  />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -84,7 +83,7 @@ const Home = ()=>(
 
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -107,7 +106,7 @@ const Home = ()=>(
     <ul className="featured-products-container">
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2"  className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -116,8 +115,7 @@ const Home = ()=>(
             </div>
         </li>
 
-        <li className="featured-product">
-            
+        <li className="featured-product">    
             <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
@@ -129,7 +127,7 @@ const Home = ()=>(
 
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -154,7 +152,7 @@ const Home = ()=>(
     <ul className="featured-products-container">
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -163,8 +161,7 @@ const Home = ()=>(
             </div>
         </li>
 
-        <li className="featured-product">
-            
+        <li className="featured-product">    
             <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
@@ -176,7 +173,7 @@ const Home = ()=>(
 
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2"  className="sale1"/>
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -199,7 +196,7 @@ const Home = ()=>(
     <ul className="featured-products-container">
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2"  className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -221,7 +218,7 @@ const Home = ()=>(
 
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">

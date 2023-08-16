@@ -11,7 +11,7 @@ const Footer = ()=>(
     <div className="footer-container">
     <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer"><img className="whats-app" src={whatsapp} alt="whatsapp" /></a>
         <div className="contact-us-container">
-            <h1  className="policy-heading">Contact Us</h1>
+            <h1  className="policy-heading-footer">Contact Us</h1>
             <label className="label-email" htmlFor="email">Email</label>
             <p  className="utilities">needhelp@gmail.com</p>
             <label  className="label-email" htmlFor="phone">Phone</label>
@@ -23,7 +23,7 @@ const Footer = ()=>(
             </div> */}
         </div>
         <div className="social-media-container">
-            <h1  className="policy-heading">Elite Enterprise</h1>
+            <h1  className="policy-heading-footer">Elite Enterprise</h1>
             <p className="policy-desc">Simply dummy text of the printing and typesetting industry.<br />
                 Lorem Ipsum simply dummy text of the printing </p>
             <div className="social-media-links">
@@ -34,7 +34,7 @@ const Footer = ()=>(
             </div>
         </div>
         <div className="utlities-container">
-            <h1 className="policy-heading">Utility Pages</h1>
+            <h1 className="policy-heading-footer">Utility Pages</h1>
             <p className="utilities">Terms&Conditions</p>
             <p  className="utilities">Refund Policy</p>
             <p  className="utilities">Privacy Policy</p>
@@ -44,7 +44,7 @@ const Footer = ()=>(
         </div>
     </div>
     <div className="social-media-container-small">
-            <h1  className="policy-heading">Elite Enterprise</h1>
+            <h1  className="policy-heading-footer">Elite Enterprise</h1>
             <p className="policy-desc">Simply dummy text of the printing and typesetting industry.<br />
                 Lorem Ipsum simply dummy text of the printing </p>
             <div className="social-media-links">

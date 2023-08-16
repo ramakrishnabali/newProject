@@ -16,31 +16,32 @@ const Shop =()=>(
         </div>
         <ul className="featured-products-container">
             <Link to={`/shop/${1}`}  className="featured-product">
-        <li>
-            <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
-            <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
-            <hr className="hr-line"/>
-            <div className="cost-container">
-                <p className="featured-product-cost">425.00 <span className="updated-cost">525.00</span></p>
-                <button type="button" className="add-to-cart">Add to Cart</button>
-            </div>
-        </li>
-        </Link>
-        <Link to={`/shop/${1}`}  className="featured-product">
-            <li>    
-                <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
-                <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
-                <hr className="hr-line"/>
-                <div className="cost-container">
-                    <p className="featured-product-cost">425.00 <span className="updated-cost">525.00</span></p>
-                    <button type="button" className="add-to-cart">Add to Cart</button>
-                </div>
-            </li>
-        </Link>
+                <li>
+                    <p className="sale">Sale</p>
+                    <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1"/>
+                    <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
+                    <hr className="hr-line"/>
+                    <div className="cost-container">
+                        <p className="featured-product-cost">425.00 <span className="updated-cost">525.00</span></p>
+                        <button type="button" className="add-to-cart">Add to Cart</button>
+                    </div>
+                </li>
+            </Link>
+
+            <Link to={`/shop/${1}`}  className="featured-product">
+                <li>    
+                    <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+                    <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
+                    <hr className="hr-line"/>
+                    <div className="cost-container">
+                        <p className="featured-product-cost">425.00 <span className="updated-cost">525.00</span></p>
+                        <button type="button" className="add-to-cart">Add to Cart</button>
+                    </div>
+                </li>
+            </Link>
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -63,7 +64,7 @@ const Shop =()=>(
         <ul className="featured-products-container">
             <li className="featured-product">
                 <p className="sale">Sale</p>
-                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
                 <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
                 <hr className="hr-line"/>
                 <div className="cost-container">
@@ -72,8 +73,7 @@ const Shop =()=>(
                 </div>
             </li>
 
-            <li className="featured-product">
-                
+            <li className="featured-product">    
                 <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
                 <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
                 <hr className="hr-line"/>
@@ -85,7 +85,7 @@ const Shop =()=>(
 
             <li className="featured-product">
                 <p className="sale">Sale</p>
-                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
                 <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
                 <hr className="hr-line"/>
                 <div className="cost-container">
@@ -108,7 +108,7 @@ const Shop =()=>(
         <ul className="featured-products-container">
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -130,7 +130,7 @@ const Shop =()=>(
 
         <li className="featured-product">
             <p className="sale">Sale</p>
-            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+            <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
             <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
             <hr className="hr-line"/>
             <div className="cost-container">
@@ -153,7 +153,7 @@ const Shop =()=>(
         <ul className="featured-products-container">
             <li className="featured-product">
                 <p className="sale">Sale</p>
-                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1" />
                 <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
                 <hr className="hr-line"/>
                 <div className="cost-container">
@@ -162,8 +162,7 @@ const Shop =()=>(
                 </div>
             </li>
 
-            <li className="featured-product">
-                
+            <li className="featured-product">    
                 <img className="sale2" src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
                 <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
                 <hr className="hr-line"/>
@@ -175,7 +174,7 @@ const Shop =()=>(
 
             <li className="featured-product">
                 <p className="sale">Sale</p>
-                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" />
+                <img src={ElleVireExcellenceWhippingCream2} alt="ElleVireExcellenceWhippingCream2" className="sale1"/>
                 <h1 className="featured-product-heading">Caramel Crunchies Z6579</h1>
                 <hr className="hr-line"/>
                 <div className="cost-container">

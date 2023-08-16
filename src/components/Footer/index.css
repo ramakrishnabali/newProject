@@ -47,7 +47,7 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding: 0px 0px 0px 80px;
+        padding: 0px 0px 0px 50px;
     }
 }
 .label-email{
@@ -122,11 +122,11 @@
 .copy-right{
     font-family: "Open Sans";
     font-weight: 400;
-    font-size: 19px;
+    font-size: 15px;
     color: #525C60;
     align-self: center;
     margin: 0px;
-    align-self: center;
+    text-align: center;
     position: relative;
     top: 50px;
 }
@@ -142,6 +142,20 @@
     width: 100%;
     position: relative;
     top: 50px;
+}
+.policy-heading-footer{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "Roboto";
+    color:#8F3300;
+}
+@media screen and (max-width:768px) {
+    .policy-heading-footer{
+        font-size: 23px;
+        font-weight: 700;
+        font-family: "Roboto";
+        color:#8F3300;
+    }
 }
 @media screen and (max-width:768px) {
     .hr-line-footer{
