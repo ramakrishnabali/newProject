@@ -11,18 +11,20 @@ const Footer = ()=>(
     <div className="footer-container">
     <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer"><img className="whats-app" src={whatsapp} alt="whatsapp" /></a>
         <div className="contact-us-container">
-            <h1  className="policy-heading">contact Us</h1>
+            <h1  className="policy-heading">Contact Us</h1>
             <label className="label-email" htmlFor="email">Email</label>
             <p  className="utilities">needhelp@gmail.com</p>
             <label  className="label-email" htmlFor="phone">Phone</label>
             <p  className="utilities">666 888 888</p>
             <label  className="label-email" htmlFor="address">Address</label>
             <p  className="utilities">Mumbai Andheri, India</p>
-            {/* <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer"><img className="whats-app" src={whatsapp} alt="whatsapp" /></a> */}
+            {/* <div>
+            <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer"><img className="whats-app" src={whatsapp} alt="whatsapp" /></a>
+            </div> */}
         </div>
         <div className="social-media-container">
             <h1  className="policy-heading">Elite Enterprise</h1>
-            <p  className="policy-desc">Simply dummy text of the printing and typesetting industry.<br />
+            <p className="policy-desc">Simply dummy text of the printing and typesetting industry.<br />
                 Lorem Ipsum simply dummy text of the printing </p>
             <div className="social-media-links">
                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" /></a>
@@ -31,7 +33,7 @@ const Footer = ()=>(
                 <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><img src={vector} alt="vector" /></a>
             </div>
         </div>
-        <div>
+        <div className="utlities-container">
             <h1 className="policy-heading">Utility Pages</h1>
             <p className="utilities">Terms&Conditions</p>
             <p  className="utilities">Refund Policy</p>
@@ -41,7 +43,18 @@ const Footer = ()=>(
             <p  className="utilities">Brands</p>
         </div>
     </div>
-    <hr className="hr-line"/>
+    <div className="social-media-container-small">
+            <h1  className="policy-heading">Elite Enterprise</h1>
+            <p className="policy-desc">Simply dummy text of the printing and typesetting industry.<br />
+                Lorem Ipsum simply dummy text of the printing </p>
+            <div className="social-media-links">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" /></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src={fb} alt="facebook" /></a>
+                <a href="https://www.X.com" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a>
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><img src={vector} alt="vector" /></a>
+            </div>
+        </div>
+    <hr className="hr-line-footer"/>
     <div className="copy-right-container">
         <p className="copy-right">Copyright ©<span className="label-email"> Elite Enterprise</span>| Designed & Developed By<span className="label-email"> Incinc Media</span> </p>
     </div>

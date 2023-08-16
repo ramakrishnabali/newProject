@@ -2,13 +2,34 @@
     width: 100%;
     height: 350px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    position: relative;
+    top: 50px;
+    /* border: 3px solid black; */
+    align-self: center;
+    /* flex-wrap: nowrap; */
+}
+@media screen and (max-width:768px) {
+    .footer-container{
+        width: 100%;
+        /* flex-wrap: wrap; */
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
 }
 .whats-app{
-    width: 70px;
-    height: 70px;
-    align-self:flex-start;
+    width: 60px;
+    height: 60px;
+    align-self:flex-end;
     cursor: pointer;
+    margin: 0px;
+}
+@media screen and (max-width:768px) {
+    .whats-app{
+        display: none;
+    }
 }
 .contact-us-container{
     display: flex;
@@ -18,6 +39,16 @@
     /* border-right: 1px solid #BFBFBF;
     padding-right: 20px; */
     height: 90%;
+}
+@media screen and (max-width:768px) {
+    .contact-us-container{
+        width: 40%;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 0px 0px 80px;
+    }
 }
 .label-email{
     color: #000000;
@@ -35,6 +66,28 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.social-media-container-small{
+    display:none;
+}
+@media screen and (max-width:768px) {
+    .social-media-container{
+        width: 100%;
+        order: 3;
+        height: 100%;
+        display: none;
+    }
+    .social-media-container-small{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100%;
+            /* padding-left: 15px;
+            padding-right: 15px;   */
+            margin-top: 25px;
+    }
+}
 .utilities{
     font-family: "Open Sans";
     font-weight: 400;
@@ -50,6 +103,16 @@
     justify-content: space-evenly;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+    .utlities-container{
+        width: 40%;
+        order: 2;
+        /* display: flex;
+        flex-direction: column; */
+        padding-left:55px;
+
+    }
+}
 .copy-right-container{
     display: flex;
     align-items: center;
@@ -64,4 +127,26 @@
     align-self: center;
     margin: 0px;
     align-self: center;
+    position: relative;
+    top: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .copy-right{
+        position: relative;
+        top: 30px;
+    }
+}
+.hr-line-footer{
+    color: #BFBFBF;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+@media screen and (max-width:768px) {
+    .hr-line-footer{
+        order: 4;
+        position: relative;
+        top: 5px;
+    }
 }

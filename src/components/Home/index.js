@@ -3,8 +3,8 @@ import "./index.css"
 import Header from "../Header"
 import Footer from "../Footer";
 import { HiArrowSmRight } from "react-icons/hi";
-import LeftArrow from "../../img/Home/LeftArrow.jpg"
-import RightArrow from "../../img/Home/RightArrow.jpg"
+import LeftArrow from "../../img/Home/LeftArrow.png"
+import RightArrow from "../../img/Home/RightArrow.png"
 import Group775 from "../../img/Home/Group775.jpg"
 import chocolate1 from "../../img/Home/chocolate1.png"
 import ElleVireExcellenceWhippingCream2 from "../../img/Home/ElleVireExcellenceWhippingCream2.jpg"

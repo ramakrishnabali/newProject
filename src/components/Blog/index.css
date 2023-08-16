@@ -1,0 +1,143 @@
+.blog-main-container{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.blog-container{
+    width:95%;
+    height: 100%;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    top: 10px;
+}
+
+.blog{
+    background-image: url(../../img/Blog/blog1.png);
+    background-size: cover;
+    width: 450px;
+    height: 289px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* .blog-1{
+    background-image: url(../../img/Blog/blog1.png);
+    background-size: cover;
+} */
+.blog-2{
+    background-image: url(../../img/Blog/tomoto.png);
+    background-size: cover;
+    margin-top: 30px;
+}
+.blog-3{
+    background-image: url(../../img/Blog/image1.png);
+    background-size: cover;
+    margin-top: 30px;
+}
+.blog-4{
+    background-image: url(../../img/Blog/image2.png);
+    background-size: cover;
+    margin-top: 30px;
+}
+.blog-5{
+    background-image: url(../../img/Blog/image3.png);
+    background-size: cover;
+    margin-top: 30px;
+}
+.blog-6{
+    background-image: url(../../img/Blog/plastic.png);
+    background-size: cover;
+    margin-top: 30px;
+}
+.blog-image{
+    border-radius: 10px;
+    width: 450px;
+    height: 85%;
+}
+.date-container{
+    width: 62px;
+    height: 62px;
+    top: 32px;
+    left: 30px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.date{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0px;
+    color: #652700;
+}
+.blog-text-container{
+    position: relative;
+    width: 85%;
+    top: 100px;
+    left: 25px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 13px;
+    gap: 5px;
+    box-shadow: 0px 20px 35px 0px #A7A7A740;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:768px) {
+    .blog-text-container{
+        right: 20px;
+        left: 17px;
+
+    }
+}
+.blog-name-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bloger-name{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    color: #652700;
+}
+.bloger-heading{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    color: #652700;
+    margin: 0px;
+}
+
+.bloger-button{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #652700;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,91 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1,401px;
+    top: 804px;
+    left: 260px;
+    gap: 42px;
+    margin-top: 10px;
+}
+
+.team-heading-container{
+    width:602px;
+    /* gap: 16px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-heading{
+    margin-top: 15px;
+    font-family: "Yellowtail";
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: #DDAB84;
+}
+.team-main-heading{
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    margin: 5px;
+    color:#652700;
+    margin-top: 0px;
+}
+.team-info-container{
+    width: 100%;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+}
+.personal-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    Width:350px;
+}
+.personal-info{
+    box-shadow: 0px 19px 24px 0px #96969640;
+    border-radius: 15px;
+    padding: 0px 0px 15px 0px;
+    Width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.media{
+    align-self: flex-end;
+}
+.person-name{
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: 800;
+    text-align: left;
+    color: #652700;
+}
+.occupation{
+    font-family: "Yellowtail";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #DDAB84;
+    margin: 0px;
+}
+.person-image{
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+.personal-info-lady{
+    background-color: #F9F8F8;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0px 0px 15px 0px;
+    Width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

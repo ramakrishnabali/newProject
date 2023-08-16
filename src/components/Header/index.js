@@ -21,7 +21,9 @@ const Header = ()=>(
                 <p className="header-links">Shop</p>
             </Link>
             <p className="header-links">Brands</p>
-            <p className="header-links">Support</p>
+            <Link to="/contactus"  className="header-links">
+                <p className="header-links">Support</p>
+            </Link>
             <input className="header-search" type="text" />
             <div className="search-icon">
                 <BsSearch />
